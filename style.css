@@ -1,0 +1,148 @@
+body{
+	background-color: #e1e8f0;
+}
+
+.banner{
+	background-color: white;
+}
+
+.banner-logo, .banner-logo:focus, .banner-logo:active, .banner-logo:hover, .banner-logo:visited{
+	color: #16a085;
+	vertical-align: baseline;
+	text-decoration: none;
+}
+
+.banner-logo .small.banner-small-text{
+	color: #1abc9c;
+	padding-left: 5px;
+}
+
+.banner-logo .banner-logo-icon{
+	font-size: 72px;
+	vertical-align: middle;
+}
+
+.banner-alert{
+	border: 1px solid #16a085;
+    border-radius: 8px;
+	margin-top: 10px;
+	padding:  10px;
+	background-color: rgba(39, 174, 96, 0.5);
+}
+
+#searchAlert{
+	color: #173e43;
+	margin-bottom: 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+    position:relative;
+    min-width: 85%;
+    text-align:center;
+}
+
+.search-body {
+	padding: 10px;
+	height: calc(100vh - 75px);
+}
+
+.clearSearch {
+    position: absolute;
+    right: 5px;
+    top: 0;
+    bottom: 0;
+    height: 14px;
+    margin: auto;
+    font-size: 14px;
+    cursor: pointer;
+    color: #ccc;
+    z-index: 101;
+}
+
+.search-results{
+	height: 100%;
+	overflow-y: auto;
+	background-color: white;
+}
+
+.search-bar{
+	margin: 5px 0;
+}
+
+.search-filter{
+	padding: 10px;
+}
+
+#slider-rate-limit, #slider-stars{
+	margin-bottom: 2px;
+}
+
+.slider-text {
+	width: 100%;
+	margin-top: 25px;
+}
+
+.panel-span{
+	margin-left: 35%;
+}
+
+.list-link, .list-link:hover, .list-link:active, .list-link:visited{
+	color: #9068be;
+	font-size: 1.5em;
+	text-decoration: none;
+	cursor: pointer;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+    position: relative;
+    max-width: 100%;
+    text-align: center;
+}
+
+.list-bar, .list-details{
+	color: #16a085;
+	text-decoration: none;
+	cursor: text;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+    position:relative;
+    text-align:center;
+}
+
+.list-bar{
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.list-row-2{
+	margin-top: 10px;
+}
+
+.repo-result{
+	margin: 0 15px;
+}
+
+.load-more, .load-more:hover, .load-more:active, .load-more:visited{
+	text-align: center;
+	font-size: 2em;
+	display: block;
+	color: #9068be;
+}
+
+.search-filter .panel-title {
+	color: #9068be;
+}
+
+label{
+	color: #173e43;
+}
+
+
+
+
+
+
+
+
+

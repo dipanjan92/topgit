@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TopGit</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css">
+
+	<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+
+
+	<link type="text/css" rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+
+	<script type="text/javascript" src="https://use.fontawesome.com/edaad0f95c.js"></script>
+</head>
+<body class="container-fluid">
+
+	<div class="row banner">
+		<div class="col-sm-12 col-md-6 col-lg-6">
+			<a href="#" title="TopGit" class="banner-logo h1">
+				<i class="fa fa-github banner-logo-icon"></i>
+				TopGit<span class="small banner-small-text">- finding the best github projects!</span>
+			</a>
+		</div>
+		<div class="col-sm-12 col-md-6 col-lg-6">
+			<div class="banner-alert h3" role="alert">
+				<label id="searchAlert"></label>
+				<i id="loading-icon" class="fa fa-spinner pull-right" aria-hidden="true"></i>
+			</div>
+		</div>
+	</div>
+
+	<div class="row search-body">
+
+	<div class="col-sm-8 search-results">
+		<div class="row search-bar">
+			<div class="col-sm-6 input-group">
+				<span class="input-group-addon"><i class="fa fa-search"></i></span>
+				<input type="search" class="form-control" name="lang_search" id="searchInput" placeholder="Search (by language)" />
+				<i class="fa fa-times-circle clearSearch"></i>
+			</div>
+		</div>
+		<div class="row result-list">
+			<ul class="list-group repo-result">
+				
+			</ul>
+		</div>
+	</div>
+
+	<div class="col-sm-3 col-sm-offset-1 search-filter">
+		<div class="row filter-rate">
+			<div class="panel panel-default">
+	  			<div class="panel-heading">
+	  				
+	    			<h3 class="panel-title"><i class="fa fa-list"></i><span class="panel-span">RateLimit</span></h3>
+	  			</div>
+	  			<div class="panel-body">
+	    			<p class="text-center"><label><span id="rate-lower"></span> out of <span id="rate-upper"></span></label></p>
+	  			</div>
+			</div>			
+		</div>
+		<div class="row filter-star">
+			<div class="panel panel-default">
+	  			<div class="panel-heading">
+	  				
+	    			<h3 class="panel-title"><i class="fa fa-star"></i><span class="panel-span">Stars</span></h3>
+	  			</div>
+	  			<div class="panel-body">
+    				<div id="slider-stars"></div>
+    				<label class="pull-left">0</label>
+    				<label class="pull-right">1000</label>
+	    			<p class="slider-text text-center"><label id="star"></label></p>
+	  			</div>
+			</div>			
+		</div>
+	</div>
+
+	</div>
+
+
+
+</body>
+</html>
